@@ -1,0 +1,5 @@
+= Authentication
+:antora-page-url: /features/authentication/index.html
+:tabs-sync-option:
+
+this is about authentication

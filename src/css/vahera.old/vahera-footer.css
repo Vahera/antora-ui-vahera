@@ -1,0 +1,76 @@
+.vs-footer {
+  font-family: "Figtree", sans-serif;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  background-color: #020426;
+  border-top: 6px solid #4396dc;
+  font-size: 16px;
+}
+
+.vs-footer .vs-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.vs-footer .vs-logo .vs-logo-image {
+  display: block;
+  width: 150px !important;
+  margin: 0 auto;
+}
+
+.vs-footer .footer-links,
+.vs-footer .footer-sublinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.vs-footer .footer-sublinks {
+  margin-top: 1em;
+  font-size: var(--font-down-1);
+}
+
+.vs-footer .footer-links a,
+.vs-footer .footer-links a:visited,
+.vs-footer .footer-sublinks a,
+.vs-footer .footer-sublinks a:visited {
+  text-transform: uppercase;
+  color: #4396dc;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.vs-footer .footer-links a:hover,
+.vs-footer .footer-sublinks a:hover {
+  color: #86848b;
+}
+
+.vs-footer .footer-links a:not(:last-child)::after,
+.vs-footer .footer-sublinks a:not(:last-child)::after {
+  content: "|";
+  margin-left: 0.75em;
+  margin-right: 0.75em;
+  color: rgba(127, 127, 127, 0.8);
+}
+
+.vs-footer .footer-terms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.75em;
+}
+
+.vs-footer .footer-terms.terms-copyright {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 255);
+  text-align: center;
+}
+
+.vs-footer .footer-terms.terms-trademark {
+  color: rgba(127, 127, 127, 1);
+  text-align: center;
+  font-style: italic;
+  font-size: 13px;
+}

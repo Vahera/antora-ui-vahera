@@ -1,0 +1,51 @@
+= Introduction
+:page-author: Jon Doe, Eric Doe
+:idprefix:
+:idseparator: -
+:!example-caption:
+:!table-caption:
+:page-pagination:
+:chomp-package-replacement: com.acme
+:tabs-sync-option:
+:page-related-doc-categories: security
+:page-related-doc-projects: framework
+
+image:multirepo-ssg.svg[Multirepo SSG,200,float=right]
+Platonem complectitur mediocritatem ea eos.
+Ei nonumy deseruisse ius.
+Mel id omnes verear.
+Vis no velit audiam, sonet <<dependencies,praesent>> eum ne.
+*Prompta eripuit* nec ad.
+Integer diam enim, dignissim eget eros et, ultricies mattis odio.
+Vestibulum consectetur nec urna a luctus.
+Quisque pharetra tristique arcu fringilla dapibus.
+https://example.org[Curabitur,role=unresolved] ut massa aliquam, cursus enim et, accumsan lectus.
+
+== Cu solet
+
+Nominavi luptatum eos, an vim hinc philosophia intellegebat.
+Lorem pertinacia `expetenda` et nec, [.underline]#wisi# illud [.line-through]#sonet# qui ea.
+Eum an doctus <<liber-recusabo,maiestatis efficiantur>>.
+Eu mea inani iriure.
+
+[source,json]
+----
+{
+  "name": "module-name",
+  "version": "10.0.1",
+  "description": "An example module to illustrate the usage of package.json",
+  "author": "Author Name <author@example.com>",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint"
+  }
+}
+----
+
+.Example paragraph syntax
+[source,asciidoc]
+----
+.Optional title
+[example]
+This is an example paragraph.
+----
