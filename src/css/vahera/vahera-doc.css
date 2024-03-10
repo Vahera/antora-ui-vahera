@@ -257,7 +257,6 @@ mark {
 /* Use horizonal scrolling for large tables */
 
 .doc table.tableblock {
-  display: block;
   width: 100%;
   overflow-x: auto;
   overflow-y: hidden;
@@ -308,4 +307,8 @@ mark {
 
 .admonitionblock.latest {
   padding: 1.5rem 1rem 0;
+}
+
+.doc table.tableblock.no-hover tbody tr:hover {
+  background: transparent !important;
 }

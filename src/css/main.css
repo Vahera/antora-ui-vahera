@@ -156,14 +156,6 @@ html.dark-theme .sidebar-links a:hover svg {
   padding: 1.5rem 2rem;
 }
 
-#modal-versions .colset .col-right {
-  background: #e5ebeb;
-}
-
-html.dark-theme #modal-versions .colset .col-right {
-  background: rgba(255, 255, 255, 0.1);
-}
-
 @media screen and (max-width: 1023.5px) {
   #modal-versions .colset {
     display: block;
