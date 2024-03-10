@@ -204,7 +204,7 @@ mark {
   font-weight: var(--admonition-font-weight);
   color: var(--admonition-font-color);
   font-style: normal;
-  hyphens: none;
+  hyphens: none !important;
   padding: 0 0.5em;
   margin: -0.05em;
   filter: invert(100%);
@@ -311,4 +311,11 @@ mark {
 
 .doc table.tableblock.no-hover tbody tr:hover {
   background: transparent !important;
+}
+
+.doc a.external-reference {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjEyIiB3aWR0aD0iMTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjOGNmIj48cGF0aCBkPSJtNy41IDcuMXYzLjRoLTZ2LTZoMy40Ii8+PHBhdGggZD0ibTUuNzY1IDFoNS4yMzV2NS4zOWwtMS41NzMgMS41NDctMS4zMS0xLjMxLTIuNzI0IDIuNzIzLTIuNjktMi42ODggMi44MS0yLjgwOC0xLjMxMy0xLjMxeiIvPjwvZz48L3N2Zz4K);
+  background-position: center right;
+  background-repeat: no-repeat;
+  padding-right: 13px;
 }

@@ -195,7 +195,7 @@
 
   /* Footer */
   --footer-line-height: var(--doc-line-height);
-  --footer-background: var(--body-background-color);
+  --footer-background: #020426;
   --footer-font-color: var(--color-gray-30);
   --footer-link-font-color: #111;
 
@@ -213,7 +213,7 @@
   --toc-height: calc(100vh - var(--toc-top) - 2.5rem);
   --toc-width--widescreen: calc(216 / var(--rem-base) * 1rem);
   --doc-max-width: calc(720 / var(--rem-base) * 1rem);
-  --doc-max-width--desktop: calc(1200 / var(--rem-base) * 1rem);
+  --doc-max-width--desktop: calc(1400 / var(--rem-base) * 1rem);
 
   /* Stacking */
   --z-index-nav: 1;
@@ -329,7 +329,7 @@ html.dark-theme {
   --heading-font-color: var(--body-font-dark-color);
 
   /* Footer */
-  --footer-background: var(--body-background-color);
+  --footer-background: #020426;
   --footer-font-color: rgba(255, 255, 255, 0.5);
   --footer-link-font-color: rgba(255, 255, 255, 0.5);
 }
